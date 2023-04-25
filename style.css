@@ -1,0 +1,134 @@
+  /* Set font family and size for the calculator */
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+/* Set the background color of the page */
+body {
+  background-color: #292828;
+  
+}
+.text{
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0px 0px 12px rgb(21, 126, 225);
+  text-align: center;
+  font-size:40px;
+  color:rgb(255, 151, 252);
+  line-height: 200px;
+}
+
+/* Style the calculator container */
+.calculator {
+  width: 300px;
+  margin: 70px auto;
+  background-color: #212121;
+  border-radius: 10px;
+  box-shadow: 0px 2px 70px rgb(255, 151, 252);
+}
+
+/* Style the calculator display */
+.display {
+  background-color: #282828;
+  border-radius: 10px 10px 0 0;
+  padding: 12px;
+  font-size: 20px;
+  color: rgb(244, 240, 239);
+}
+
+.display input {
+  background-color: #282727;
+  border:none;
+  color:rgb(186, 182, 181);
+  font-size: 2.3em;
+  width: 100%;
+  text-align: right;
+  text-shadow: 0px 0px 10px rgb(225, 21, 194);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+/* Style the calculator buttons */  
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Style the operator buttons */
+.operator {
+  background-color: #e94439;
+}
+
+/* Style the equal button */
+.equal {
+  background-color: #53aac7;
+}
+
+/* Style the clear button */
+.clear {
+  background-color: #827676;
+  color: #dfd2d2;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size:20px;
+}
+
+/* Change button background on hover */
+button:hover {
+  background-color: #514e4e;  
+}
+/* Change operator button background on hover */
+.operator:hover {
+  background-color: #f0585d;
+  transition: 10ms;
+}
+
+/* Change equal button background on hover */
+.equal:hover {
+  background-color: #29bdd4ed;
+  transition: 25ms;
+}
+
+/* Change clear button background on hover */
+.clear:hover {
+  background-color: #ab9f9f;
+  transition: 10ms;
+}
+
+/* Change button background on click */
+button:active {
+  transform: translateY(7px);
+  transition: 300ms;
+}
+
+/* Change operator button background on click */
+.operator:active {
+  background-color: #ff6659;
+  transition:300ms;
+}
+
+/* Change equal button background on click */
+.equal:active {
+  background-color: #5d8cb7;
+  transition:300ms;
+
+}
+
+/* Change clear button background on click */
+.clear:active {
+  background-color: #bdbdbd;
+  transition: 400ms;
+}
+
+
